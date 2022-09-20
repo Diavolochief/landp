@@ -1,8 +1,8 @@
 {
-  "name": "react-striz",
+  "name": "landp",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://pgm-apps.com/landings/landpark/",
+  "private": false,
+  "homepage": "https://diavolochief.github.io/landp",
   "basename": "/",
   "dependencies": {
     "@babel/core": "7.1.0",
@@ -104,7 +104,7 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-      "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "test": "node scripts/test.js",
     "package": "node opal.js"
   },
@@ -171,6 +171,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^9.0.0",
+    "gh-pages": "^4.0.0",
     "node-sass": "^4.10.0",
     "sass-loader": "^7.1.0",
     "webpack": "^4.19.1"
