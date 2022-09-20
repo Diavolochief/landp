@@ -1,7 +1,7 @@
 {
   "name": "landp",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "homepage": "https://diavolochief.github.io/landp",
   "basename": "/",
   "dependencies": {
@@ -103,7 +103,7 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "node scripts/test.js",
     "package": "node opal.js"
