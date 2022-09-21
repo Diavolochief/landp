@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "32529f3a14d48de3cd4f",
+    "revision": "65ee0684a0372a5ebe2d",
     "url": "/landp/static/css/main.261fa113.chunk.css"
   },
   {
-    "revision": "32529f3a14d48de3cd4f",
-    "url": "/landp/static/js/main.32529f3a.chunk.js"
+    "revision": "65ee0684a0372a5ebe2d",
+    "url": "/landp/static/js/main.65ee0684.chunk.js"
   },
   {
     "revision": "538e0b09ae915dfd583b",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/landp/static/js/2.f9488c3c.chunk.js"
   },
   {
-    "revision": "6ca6a1aee0561c99f6414056757506f9",
+    "revision": "bf84d1174862eced2c89333ba81d1ef9",
     "url": "/landp/index.html"
   }
 ];
