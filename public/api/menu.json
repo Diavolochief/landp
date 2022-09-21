@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Home",
+        "link": "/",
+        "children": []
+    },
+    {
+        "name": "Caracteristicas",
+        "link": "/#terrenos",
+        "children": []
+    }
+    ,
+    {
+        "name": "Ventajas",
+        "link": "/#ventajas",
+        "children": []
+    }
+    ,
+    {
+        "name": "Ubicacion",
+        "link": "/#ubicacion",
+        "children": []
+    }
+    ,
+    {
+        "name": "Contacto",
+        "link": "/#contactos",
+        "children": []
+    }
+]
