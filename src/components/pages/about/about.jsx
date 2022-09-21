@@ -4,7 +4,6 @@ import Helmet from 'react-helmet';
 import {Parallax} from 'react-parallax';
 import Heading from "../../common/heading/heading";
 import './about.scss';
-import OurTeamBlock from "../../common/our-team/our-team";
 import CallToActionSection from "../../sections/caltoaction/caltoaction";
 import OurTeamSection from "../../sections/our-team/our-team";
 

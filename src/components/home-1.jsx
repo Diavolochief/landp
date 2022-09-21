@@ -15,25 +15,26 @@ class Home1 extends Component {
                 <Helmet>
                     <title>LandPark</title>
                 </Helmet>
-                <div className="section-wrapper pt-0 pb-0">
+                <div className="section-wrapper pt-0 pb-0 separador">
                     <SliderHome />
                 </div>
-                <div id='terrenos' className="section-wrapper">
+                <div id='terrenos' className="section-wrapper separador">
                     <OverviewSection />
                 </div>
-
-                <div id='ventajas' className="section-wrapper">
+                    <hr class="hr"/>
+                <div id='ventajas' className="section-wrapper ">
                     <OverviewFluidSection/>
                 </div>
 
-                <div className="section-wrapper">
+                <div className="section-wrapper separador ">
                     <CounterBlock />
                 </div>
+                    <hr class="hr"/>
                     <br id='ubicacion'/>
-                <div  className="section-wrapper pl-6 pr-6">
+                <div  className="section-wrapper pl-6 pr-6 ">
                     <AmenitiesSection />
                 </div> 
-                <div className="section-wrapper pb-0">
+                <div className="section-wrapper pb-0 ">
                     <CallToActionSection />
                 </div>
                 <div className="section-wrapper" id='contactos'>

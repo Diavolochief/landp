@@ -20,7 +20,7 @@ class SliderHome extends Component {
                         <div className="container">
                             <div className="slider-content">
                                 <div className="text-center w-100">
-                                    <h2 className="text-white">LandPark <br/>-<br/>Terrenos en Pre Venta</h2>
+                                    <h2 className="text-white back">LandPark <br/>-<br/>Terrenos en Pre Venta</h2>
                                    
                                 </div>
                               
@@ -34,7 +34,7 @@ class SliderHome extends Component {
                         <div className="container">
                             <div className="slider-content">
                             <div className="text-center w-100">
-                                    <h2 className="text-white">LandPark <br/>-<br/>Terrenos en Pre Venta </h2>         
+                                    <h2 className="text-white back">LandPark <br/>-<br/>Terrenos en Pre Venta </h2>         
                                 </div>
                             </div>
                         </div>
@@ -45,7 +45,7 @@ class SliderHome extends Component {
                         <div className="container">
                             <div className="slider-content">
                             <div className="text-center w-100">
-                                    <h2 className="text-white">LandPark <br/>-<br/>Terrenos en Pre Venta </h2>         
+                                    <h2 className="text-white back">LandPark <br/>-<br/>Terrenos en Pre Venta </h2>         
                                 </div>
                             </div>
                         </div>
@@ -56,7 +56,7 @@ class SliderHome extends Component {
                         <div className="container">
                             <div className="slider-content">
                             <div className="text-center w-100">
-                                    <h2 className="text-white">LandPark<br/>-<br/>Terrenos en Pre Venta </h2>         
+                                    <h2 className="text-white back">LandPark<br/>-<br/>Terrenos en Pre Venta </h2>         
                                 </div>
                             </div>
                         </div>

@@ -5,14 +5,12 @@ import './sidebar.scss';
 
 class SidebarLayout extends Component {
 
-    constructor(props) {
-        super(props)
-    }
+ 
 
     render = () => {
         const {position} = this.props;
         return (
-            <div className={(position == "right") ? 'sidebar order-2' : 'sidebar'}>
+            <div className={(position === "right") ? 'sidebar order-2' : 'sidebar'}>
                 <StickyBox offsetTop={20} offsetBottom={20}>
                     <div className={`sidebar-inner`}>
                         <aside className={`sidebar-wrap`}>

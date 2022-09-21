@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Slider from "react-slick";
 import './slider.scss';
 
+
 import Modal from 'react-responsive-modal';
 
 class CarouselPage1 extends Component {
@@ -93,7 +94,8 @@ class CarouselPage1 extends Component {
                         <div className="slider-info mt-auto">
                             <h4 className="text-white text-uppercase mb-4">{this.state.active.title}</h4>
                             <p>{this.state.active.description}</p>
-                            <button className="btn btn-link p-0" type="button" onClick={this.onOpenModal} >Vista al Mapa</button>
+                            <i className="fa fa-map-marker pin"></i>
+                            <button className="btn btn-link p-0" type="button" onClick={this.onOpenModal} >   Ver ubicación </button>
                         </div>
                         <Modal open={this.state.open} onClose={this.onCloseModal} center>
                     <div className="modal-dialog modal-lg modal-dialog-centered " role="document">

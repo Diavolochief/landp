@@ -4,9 +4,11 @@ import Heading from "../../common/heading/heading";
 class OverviewSection extends Component {
     render() {
         return (
-            <div className="container">
-                <div className="row align-items-center">
-                    <div className="col-lg-6 col-md-12 col-sm-12 content-left">
+            <div className="container-fluid px-md-4">
+                <div className="row mx-lg-4">
+                    
+                    <div className="col-lg-6 col-md-12 col-sm-12 align-self-center">
+                        <div className="w-lg-75 mx-auto">
                         <Heading>Terrenos en Pre-Venta para bodegas y naves industriales</Heading>
                         <p className="text-black">AMENIDADES Y CARACTERÍSTICAS:</p>
                         <ul>
@@ -24,12 +26,16 @@ class OverviewSection extends Component {
                         <li>•Andenes de descarga</li>
                         </ul>
                         
+                  
+                        </div>
+
                     </div>
-                    <div className="col-lg-6 col-md-12 col-sm-12">
-                        <img className="img-fluid" src="/assets/imagewebp/theme/img-05.webp" alt="" />
+                    <div className="col-lg-6 col-md-12 col-sm-12 align-self-center text-center">
+                        <img className="img-fluid uwu" src="/assets/imagewebp/theme/slide4.webp" alt=""/>
                     </div>
                 </div>
             </div>
+          
         )
     }
 }

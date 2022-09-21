@@ -6,18 +6,12 @@ import ContactForm from "../contact-form/contact-form";
 
 
 class FooterOne extends Component {
-    constructor(props) {
-        super(props)
-    }
-
+   
     render() {
         const {translate} = this.props;
         return (
             <footer className="site-footer">
-                {/*<ShapeSVG position={`top`}/>*/}
-                {/*Section #1*/}
-               
-
+            
                 {/*Section 2*/}
                 <div className="section-2">
                     <div className="container">

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Heading from "../../common/heading/heading";
-import './icon-box.scss';
+
 
 class IconBoxSection extends Component {
     render (){

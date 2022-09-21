@@ -7,7 +7,7 @@ class OverviewFluidSection extends Component {
             <div className="container-fluid px-md-4">
                 <div className="row mx-lg-4">
                     <div className="col-lg-6 col-md-12 col-sm-12 align-self-center text-center">
-                        <img className="img-fluid" src="/assets/imagewebp/theme/slide4.webp" alt=""/>
+                        <img className="img-fluid uwu2" src="/assets/imagewebp/theme/slide4.webp" alt=""/>
                     </div>
                     <div className="col-lg-6 col-md-12 col-sm-12 align-self-center">
                         <div className="w-lg-75 mx-auto">
