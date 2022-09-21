@@ -18,7 +18,7 @@ class App extends Component {
     }
 
     load = () => {
-        fetch('../public/api/menu.json')
+        fetch('./api/menu.json')
             .then((response) => response.json())
             .then((res) => {
                 this.menu = res;
