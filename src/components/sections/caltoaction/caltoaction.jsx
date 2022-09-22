@@ -9,7 +9,7 @@ class CallToActionSection extends Component {
                     {/* <h2 className="text-uppercase text-white">LANDPARK</h2> */}
                     <h1 className="text-uppercase text-white mb-4"> Contacto</h1>
                     <div className="btn-call-to-action">
-                        <hr className="btn btn-dark" />
+                        
                     </div>
                 </div>
             </div>

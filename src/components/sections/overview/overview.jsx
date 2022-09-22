@@ -1,8 +1,13 @@
-import React, { Component } from 'react';
+import React, { Component,} from 'react';
 import Heading from "../../common/heading/heading";
+import AOS from 'aos';
 
 class OverviewSection extends Component {
     render() {
+        AOS.init({
+            duration: 1200,
+          })
+          
         return (
             <div className="container-fluid px-md-4">
                 <div className="row mx-lg-4">
@@ -30,8 +35,8 @@ class OverviewSection extends Component {
                         </div>
 
                     </div>
-                    <div className="col-lg-6 col-md-12 col-sm-12 align-self-center text-center">
-                        <img className="img-fluid uwu" src="/assets/imagewebp/theme/slide4.webp" alt=""/>
+                    <div className="col-lg-6 col-md-12 col-sm-12 align-self-center text-center " >
+                        <img className="img-fluid uwu " src="/assets/imagewebp/theme/slide4.webp" alt=""  data-aos="fade-left" data-aos-delay="100"></img>
                     </div>
                 </div>
             </div>

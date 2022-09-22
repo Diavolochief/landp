@@ -6,7 +6,7 @@ import CarouselPage1 from "../../common/slider/slider1";
 class AmenitiesSection extends Component {
     render() {
         return (
-            <div className="row align-items-center">
+            <div className="row align-items-center"  data-aos="zoom-in" data-aos-delay="1000">
                 <div className="col-lg-6 col-md-12 col-sm-12">
                     <CarouselPage1 />
                 </div>

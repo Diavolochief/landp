@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Helmet } from 'react-helmet'
 // Import custom components
+import { Container, Button, Link } from 'react-floating-action-button'
+
 import SliderHome from "./common/slider/slider";
 import OverviewSection from "./sections/overview/overview";
 import CounterBlock from "./common/countup/countup";
@@ -11,7 +13,10 @@ import OverviewFluidSection from "./sections/overview-fluid/overview-fluid";
 class Home1 extends Component {
     render() {
         return (
+            
             <div id='home' className={`home-page-wrap`}>
+           
+           
                 <Helmet>
                     <title>LandPark</title>
                 </Helmet>
@@ -21,25 +26,26 @@ class Home1 extends Component {
                 <div id='terrenos' className="section-wrapper separador">
                     <OverviewSection />
                 </div>
-                    <hr class="hr"/>
+                <hr class="hr" />
                 <div id='ventajas' className="section-wrapper ">
-                    <OverviewFluidSection/>
+                    <OverviewFluidSection />
                 </div>
 
-                <div className="section-wrapper separador ">
+                <div className="section-wrapper separador" data-aos="zoom-in" data-aos-delay="100">
                     <CounterBlock />
                 </div>
-                    <hr class="hr"/>
-                    <br id='ubicacion'/>
-                <div  className="section-wrapper pl-6 pr-6 ">
-                    <AmenitiesSection />
-                </div> 
+
+                <hr class="hr" />
+                <div id='ubicacion' className="section-wrapper pl-6 pr-6 ">
+                    <AmenitiesSection/>
+                </div>
                 <div className="section-wrapper pb-0 ">
                     <CallToActionSection />
                 </div>
                 <div className="section-wrapper" id='contactos'>
-                    <ContactPage />
+                    <ContactPage />             
                 </div>
+                
 
             </div>
         )

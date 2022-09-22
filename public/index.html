@@ -23,7 +23,10 @@
     <link href="https://fonts.googleapis.com/" rel="preconnect" crossorigin>
     <link href="https://fonts.googleapis.com/css?family=Marcellus+SC%7CMontserrat:300,400,500,600,700&display=swap"
         rel="stylesheet">
-</head>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />        
+
+
+    </head>
 
 <body>
     <div class="loader-wrapper">
@@ -32,9 +35,26 @@
             <div></div>
             <div></div>
             <div></div>
+            <script>
+                // You can also pass an optional settings object
+                AOS.init({
+                  offset: 120, // offset (in px) from the original trigger point
+                  delay: 0, // values from 0 to 3000, with step 50ms
+                  easing: 'ease', // default easing for AOS animations
+                  duration: 400, // values from 0 to 3000, with step 50ms
+                  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+                  once: false, // whether animation should happen only once - while scrolling down
+                  mirror: false, // whether elements should animate out while scrolling past them
+                  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+                  animatedClassName: 'aos-animate', // class applied on animation
+                  initClassName: 'aos-init', // class applied after initialization
+                  useClassNames: false // if true, will add content of `data-aos` as classes on scroll
+                });
+              </script>
         </div>
     </div>
     <div id="root"></div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </body>
 
 </html>

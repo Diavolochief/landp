@@ -82,25 +82,17 @@ class FooterOne extends Component {
                             </div>
                             <div className="col-sm-12">
                                 <div className="social">
-                                    <a href="#">
+                                    <a href="https://www.facebook.com/LandParkTlajomulco">
                                         <span className="screen-reader-text">Facebook</span>
                                         <i className="fa fa-facebook"></i>
                                     </a>
-                                    <a href="#">
+                                    <a href="https://www.instagram.com/landparktlajomulco/?igshid=YzA2ZDJiZGQ%3D">
                                         <span className="screen-reader-text">Twitter</span>
-                                        <i className="fa fa-twitter"></i>
+                                        <i className="fa fa-instagram"></i>
                                     </a>
                                     <a href="#">
                                         <span className="screen-reader-text">Youtube</span>
-                                        <i className="fa fa-youtube"></i>
-                                    </a>
-                                    <a href="#">
-                                        <span className="screen-reader-text">Google +</span>
-                                        <i className="fa fa-google-plus"></i>
-                                    </a>
-                                    <a href="#">
-                                        <span className="screen-reader-text">Pinterest</span>
-                                        <i className="fa fa-pinterest"></i>
+                                        <i className="fa fa-whatsapp"></i>
                                     </a>
                                 </div>
                             </div>

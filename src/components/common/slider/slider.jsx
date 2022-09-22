@@ -12,7 +12,7 @@ class SliderHome extends Component {
         };
 
         return (
-            <div className={'slider-wrap position-relative'}>
+            <div className={'slider-wrap position-relative'}   data-aos="zoom-out" data-aos-delay="100">
                 <Slider {...settings}>
                     <div className="slider-item position-relative">
                         <div className="slider-image" style={{backgroundImage: 'url(/assets/imagewebp/theme/slide1.webp)'}}>
