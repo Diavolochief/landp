@@ -62,7 +62,7 @@ class ContactPage extends Component {
                                 <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Tu Correo" />
                             </div>
                             <div className="col-12 mb-3">
-                                <input type="phone" className="form-control" id="exampleInputPhone1" placeholder="Tu numuero " />
+                                <input type="phone" className="form-control" id="exampleInputPhone1" placeholder="Tu Numero " />
                             </div>
                             <div className="col-12">
                                 <button type="submit" className="btn btn-primary w-100">Dejanos Un Mensaje <i className="opal-icon-arrow"></i></button>
