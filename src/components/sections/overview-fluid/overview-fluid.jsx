@@ -11,9 +11,9 @@ class OverviewFluidSection extends Component {
                     </div>
                     <div className="col-lg-6 col-md-12 col-sm-12 align-self-center">
                         <div className="w-lg-75 mx-auto">
-                            <Heading>VENTAJAS DE NAVES INDUSTRIALES</Heading>
+                        <Heading><h1 class="txt">VENTAJAS DE NAVES INDUSTRIALES</h1></Heading>
                             <p className="text-black text-xl mt-5">Somos La Mejor Opcion:</p>
-                            <ul>
+                            <ul className='parra'>
                                 <li>Retorno de inversión mayor que vivienda y locales comerciales.</li>
                                 <li>Contratos de arrendamiento a largo plazo y con empresas grandes o trasnacionales.</li>
                                 <li>Mayor certeza jurídica</li>

@@ -39,7 +39,7 @@ class App extends Component {
                     <PushMenu
                         backIcon={<i className="fa fa fa-arrow-left"></i>}
                         expanderComponent={() => {
-                            return (<i className="fa fa-chevron-right"></i>)
+                             return (<i className="fa fa-chevron-right"></i>)
                         }}
                         autoHide={true}
                         nodes={{ children: this.menu }}

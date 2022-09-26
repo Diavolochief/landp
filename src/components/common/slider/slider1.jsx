@@ -12,19 +12,19 @@ class CarouselPage1 extends Component {
         this.data = [
             {
                 image: `/assets/imagewebp/slider/slide-amenties1.webp`,
-                title: `-VENTAJAS DE LA ZONA`,
+                title: `VENTAJAS DE LA ZONA`,
                 description: '•Conectividad las principales carreteras de acceso a la ciudad',
                 link: '#'
             },
             {
                 image: `/assets/imagewebp/slider/slide-amenties2.webp`,
-                title: `-VENTAJAS DE LA ZONA`,
+                title: `VENTAJAS DE LA ZONA`,
                 description: '•Acceso a todos los servicios',
                 link: '#'
             },
             {
                 image: `/assets/imagewebp/slider/slide-amenties3.webp`,
-                title: `-VENTAJAS DE LA ZONA`,
+                title: `VENTAJAS DE LA ZONA`,
                 description: '•Cercano a varios poblados para acceso a mano de obra.',
                 link: '#'
             }
@@ -76,8 +76,8 @@ class CarouselPage1 extends Component {
             <div className={'carousel1-wrap position-relative'}>
                 <Slider ref={slide => (this.slider = slide)} {...settings} beforeChange={this.slideChange}>
                     {this.data.map((data, index) =>
-                        <div className="slider-item" key={index}>
-                            <img src={data.image} alt=""/>
+                        <div className="slider-item " key={index}>
+                            <img className='sliderimg' src={data.image} alt=""/>
                         </div>
                     )}
                 </Slider>
@@ -92,10 +92,10 @@ class CarouselPage1 extends Component {
                     </div>
                     <div className="slider-contentn">
                         <div className="slider-info mt-auto">
-                            <h4 className="text-white text-uppercase mb-4">{this.state.active.title}</h4>
-                            <p>{this.state.active.description}</p>
+                            <h4 className="text-white text-uppercase mb-4 txt">{this.state.active.title}</h4>
+                            <p class="parra2">{this.state.active.description}</p>
                             <i className="fa fa-map-marker pin"></i>
-                            <button className="btn btn-link p-0" type="button" onClick={this.onOpenModal} >   Ver ubicación </button>
+                            <button className="btn btn-link p-0 ub" type="button" onClick={this.onOpenModal} >Ver ubicación </button>
                         </div>
                         <Modal open={this.state.open} onClose={this.onCloseModal} center>
                     <div className="modal-dialog modal-lg modal-dialog-centered " role="document">

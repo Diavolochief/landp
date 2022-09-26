@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import {Link, NavLink} from 'react-router-dom';
-import {IntlActions} from 'react-redux-multilingual'
+
 
 // Import custom components
 import MainMenu from "./common/navbar";

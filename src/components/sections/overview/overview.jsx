@@ -14,9 +14,9 @@ class OverviewSection extends Component {
                     
                     <div className="col-lg-6 col-md-12 col-sm-12 align-self-center">
                         <div className="w-lg-75 mx-auto">
-                        <Heading>Terrenos en Pre-Venta para bodegas y naves industriales</Heading>
+                        <Heading><h1 class="txt">Terrenos en Pre-Venta para bodegas y naves industriales</h1></Heading>
                         <p className="text-black">AMENIDADES Y CARACTERÍSTICAS:</p>
-                        <ul>
+                        <ul className='parra'>
                         <li>Business Center</li>
                         <li>Acceso controlado<br/></li>
                         <li>Seguridad 24/7</li>
@@ -28,7 +28,7 @@ class OverviewSection extends Component {
                         <li>Vialidades se concreto</li>
                         <li>Instalaciones ocultas</li>
                         <li>Red de alumbrado y electricidad de tensión media</li>
-                        <li>•Andenes de descarga</li>
+                        <li>Andenes de descarga</li>
                         </ul>
                         
                   

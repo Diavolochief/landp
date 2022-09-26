@@ -53,13 +53,16 @@ class ContactPage extends Component {
                         <h3 className="text-uppercase text-center">Ponerte en contacto</h3>
                         <div className="mt-4 row">
                             <div className="col-12 mb-3">
-                                <textarea id="textareaComment" className="form-control" placeholder="Your Message" rows="3"></textarea>
+                                <textarea id="textareaComment" className="form-control" placeholder="dejanos tu mensaje" rows="4"></textarea>
                             </div>
                             <div className="col-6 mb-3">
                                 <input type="text" className="form-control" id="exampleInputName" placeholder="Tu Nombre" />
                             </div>
                             <div className="col-6 mb-3">
                                 <input type="email" className="form-control" id="exampleInputEmail1" placeholder="Tu Correo" />
+                            </div>
+                            <div className="col-12 mb-3">
+                                <input type="phone" className="form-control" id="exampleInputPhone1" placeholder="Tu numuero " />
                             </div>
                             <div className="col-12">
                                 <button type="submit" className="btn btn-primary w-100">Dejanos Un Mensaje <i className="opal-icon-arrow"></i></button>

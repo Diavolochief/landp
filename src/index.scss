@@ -6,9 +6,9 @@ html{
 
 
 .fab-item{
-    width: 90px !important;
-    height: 90px !important;
-    font-size: 48px!important;
+    width: 85px !important;
+    height: 85px !important;
+    font-size: 26px!important;
     
 }
 .icons1{
@@ -35,6 +35,10 @@ html{
         height: 60px !important;
         font-size: 20px!important;
         
+    }
+    .opal-wrapper{
+        position: sticky;
+
     }
     .rpm-mp-level-open{
         position: absolute;
@@ -94,11 +98,62 @@ background-color: #88888831;
 .pin{
     font-size:xx-large;
     padding-top: 2px;
-    margin-right: 2px;
+    margin-right: 10px;
+    margin-left: 30px;
 }
 .separador{
     margin-bottom: 120px;
 }
 .margen{
     margin: auto;
+}
+.sliderText{
+    font-family:"Montserrat", sans-serif;
+}
+.txt{
+    font-size: 50px;
+}
+.parra{
+    color:rgba(0, 0, 0, 0.556);
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    line-height : 30px;
+
+}
+
+.parra2{
+    color:white;
+    font-size: 15px;
+    letter-spacing:2px;
+    font-weight: 700;
+    line-height : 30px;
+
+}
+.ub{
+    font-size: 15px;
+    margin-left: 30px;
+}
+@media (max-width: 1000px) {
+
+    .txt{
+        font-size: 30px;
+    }
+    .parra{
+        color:rgba(0, 0, 0, 0.556);
+        font-size: 13px;
+        // letter-spacing: .2rem;
+        font-weight: 600;
+        line-height : 30px;
+    
+    }
+    
+    .parra2{
+        color:white;
+        font-size: 13px;
+        letter-spacing: .2rem;
+        font-weight: 500;
+        line-height : 30px;
+    
+    }
 }

@@ -6,7 +6,14 @@
     box-sizing: border-box;
 }*/
 
-
+.rpm-mp-level-open{
+    -webkit-transform: translate3d(100%,0px,0)!important;
+   
+}
+.rpm-mp-pushed{
+    -webkit-transform: translate3d(0px,50px,0)!important;
+    position: fixed!important;
+}
 .hea{
     position: fixed;
     z-index: 2;
@@ -50,7 +57,7 @@
 }
 
 .rpm-menu-trigger:before {
-    position: absolute;
+    position: fixed;
     top: 2px;
     left: 0;
     width: 40px;
@@ -68,11 +75,11 @@
 
 .rpm-mp-menu {
     position: absolute; /* we can't use fixed here :( */
-    top: 0;
+    top: -80px;
     left: 0;
     z-index: 1000;
-    width: 300px;
-    height: 100%;
+    width: 350px;
+    height: 350px;
     -webkit-transform: translate3d(-100%, 0, 0);
     -moz-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0);
