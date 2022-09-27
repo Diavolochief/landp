@@ -5,11 +5,18 @@ html{
 }
 
 
+.gale{
+    margin: auto;
+    padding: 100px;
+}
 .fab-item{
     width: 85px !important;
     height: 85px !important;
     font-size: 26px!important;
     
+}
+.cara{
+    height: 100%!important;
 }
 .icons1{
     font-size: 60px;
@@ -57,6 +64,16 @@ html{
         position: fixed!important;
         margin: 1em!important;
         right: 20px!important;
+    }
+    .sliderimg {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .slider-info {
+        opacity: 80%;
+    }
+    .contares{
+        display: none;
     }
 }
 .uwu{

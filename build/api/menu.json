@@ -23,6 +23,12 @@
     }
     ,
     {
+        "name": "Galeria",
+        "link": "/#galeria",
+        "children": []
+    }
+    ,
+    {
         "name": "Contacto",
         "link": "/#contactos",
         "children": []

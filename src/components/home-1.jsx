@@ -10,13 +10,14 @@ import ContactPage from './pages/contact/contact';
 import CallToActionSection from "./sections/caltoaction/caltoaction";
 import AmenitiesSection from "./sections/amenities/amenities";
 import OverviewFluidSection from "./sections/overview-fluid/overview-fluid";
+import GallerrySection from './sections/gallerry/gallerry';
 class Home1 extends Component {
     render() {
         return (
-            
+
             <div id='home' className={`home-page-wrap`}>
-           
-           
+
+
                 <Helmet>
                     <title>LandPark</title>
                 </Helmet>
@@ -37,15 +38,18 @@ class Home1 extends Component {
 
                 <hr class="hr" />
                 <div id='ubicacion' className="section-wrapper pl-6 pr-6 ">
-                    <AmenitiesSection/>
+                    <AmenitiesSection />
+                </div>
+                <div className="section-wrapper pl-6 pr-6" id='galeria' >
+                    <GallerrySection />
                 </div>
                 <div className="section-wrapper pb-0 ">
                     <CallToActionSection />
                 </div>
                 <div className="section-wrapper" id='contactos'>
-                    <ContactPage />             
+                    <ContactPage />
                 </div>
-                
+
 
             </div>
         )

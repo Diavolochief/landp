@@ -102,7 +102,7 @@ class CarouselPage1 extends Component {
                         <div className="modal-content quick-view-modal">
                             <div className="modal-body">
                                 <h6 className="heading-title">Mapa</h6>
-                                <iframe className='mapa' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.2140435963397!2d-103.57416180000001!3d20.49745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8425ff838beddc59%3A0x665cfac56000cd98!2sLandPark!5e0!3m2!1ses-419!2smx!4v1663879345771!5m2!1ses-419!2smx"   frameborder="0"></iframe>      
+                                <iframe className='mapa' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.2140435963397!2d-103.57416180000001!3d20.49745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8425ff838beddc59%3A0x665cfac56000cd98!2sLandPark!5e0!3m2!1ses-419!2smx!4v1663879345771!5m2!1ses-419!2smx" title='mapa'  frameborder="0"></iframe>      
                             </div>
                         </div>
                     </div>

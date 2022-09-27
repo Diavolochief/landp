@@ -66,7 +66,7 @@ class FooterOne extends Component {
                                 </div>
                             </div>
                             <div className="col-lg-1 col-md-12"></div>
-                            <div className="col-lg-4 col-md-12">
+                            <div className="col-lg-4 col-md-12 contares">
                                 <h6 className="heading-title">Preguntanos...</h6>
                                 <ContactForm/>
                             </div>

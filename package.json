@@ -2,7 +2,7 @@
   "name": "react-striz",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://diavolochief.github.io/landp",
+  "homepage": "https://prueba-landpark.000webhostapp.com/",
   "dependencies": {
     "@babel/core": "7.1.0",
     "@svgr/webpack": "2.4.1",
@@ -55,6 +55,7 @@
     "react-dev-utils": "^6.1.1",
     "react-dom": "^16.6.1",
     "react-floating-action-button": "^1.0.5",
+    "react-floating-button": "^1.1.1",
     "react-helmet": "^5.2.1",
     "react-image-lightbox": "^5.1.0",
     "react-image-magnifiers": "^1.0.3",

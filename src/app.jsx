@@ -4,8 +4,14 @@ import HeaderOne from './components/common/headers/header-one';
 import FooterOne from "./components/common/footers/footer-one";
 import PushMenu from 'react-push-menu';
 import LinkComponent from "./lib/menuPush/LinkComponent";
-import { Container, Button, Link } from 'react-floating-action-button'
+import { Container, Button, Link,Close } from 'react-floating-action-button'
 
+
+
+
+// import { FloatingButton, Item } from "react-floating-button";
+// import downloadIcon from "./assets/";
+// import forwardIcon from "./assets/FORWARD.svg"
 
 import './lib/menuPush/component.scss';
 
@@ -39,7 +45,7 @@ class App extends Component {
                     <PushMenu
                         backIcon={<i className="fa fa fa-arrow-left"></i>}
                         expanderComponent={() => {
-                             return (<i className="fa fa-chevron-right"></i>)
+                            return (<i className="fa fa-chevron-right"></i>)
                         }}
                         autoHide={true}
                         nodes={{ children: this.menu }}
@@ -74,13 +80,31 @@ class App extends Component {
                         styles={{ backgroundColor: '#cabe9f', color: 'black',  }}
                         tooltip="Contacto"
                         icon="fa fa-arrow-up "
-                        rotate={false}
-                        onClick={{ url: 'https://snack.expo.dev/' }} />
-
+                        rotate={true}
+                        
+                        />
 
 
                     
                 </Container>
+{/* 
+                <FloatingButton>
+                    <Item
+                        imgSrc={downloadIcon}
+                        onClick={() => {
+                            console.log("callback function here");
+                        }}
+                    />
+                    <Item
+                        imgSrc={forwardIcon}
+                        onClick={() => {
+                            console.log("callback function here");
+                        }}
+                    />
+                </FloatingButton>; */}
+
+
+
 
             </>
         );
