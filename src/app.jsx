@@ -4,14 +4,16 @@ import HeaderOne from './components/common/headers/header-one';
 import FooterOne from "./components/common/footers/footer-one";
 import PushMenu from 'react-push-menu';
 import LinkComponent from "./lib/menuPush/LinkComponent";
-import { Container, Button, Link,Close } from 'react-floating-action-button'
+import { Container, } from 'react-floating-action-button'
 
 
 
 
-// import { FloatingButton, Item } from "react-floating-button";
-// import downloadIcon from "./assets/";
-// import forwardIcon from "./assets/FORWARD.svg"
+import { FloatingButton, Item } from "react-floating-button";
+import others from './iconos/facebook2.svg'
+import contacto from './iconos/contacts.svg'
+import what from './iconos/whats.svg'
+import pho from './iconos/phone.svg'
 
 import './lib/menuPush/component.scss';
 
@@ -61,7 +63,7 @@ class App extends Component {
 
                     </PushMenu>
                 </div>
-                <Container >
+                {/* <Container >
                     <Link href="https://www.instagram.com/landparktlajomulco/?igshid=YzA2ZDJiZGQ%3D"
                         tooltip="Telefono"
                         styles={{ backgroundColor: 'blue ', color: 'white',  }}
@@ -86,24 +88,40 @@ class App extends Component {
 
 
                     
+                </Container> */}
+                <Container>
+                    <FloatingButton
+                        right={true}
+                        size={80}
+                        backgroundColor={'#cabe9f'}
+                        color={'black'}
+                        imgSrc={contacto}
+                    >
+                        
+                        <Item
+                            imgSrc={others}
+                            backgroundColor={'#cabe9f'}
+                            onClick={()=>window.location='https://www.facebook.com/LandParkTlajomulco'}
+                        />
+                        <Item
+                            imgSrc={what}
+                            backgroundColor={'#cabe9f'}
+                            
+                            onClick={() => {
+                                console.log("callback function here");
+                            }}
+                            />
+                        <Item
+                            imgSrc={pho}
+                            backgroundColor={'#cabe9f'}
+                            onClick={() => {
+                                console.log("callback function here");
+                            }}
+                        />
+                    </FloatingButton>;
+
+
                 </Container>
-{/* 
-                <FloatingButton>
-                    <Item
-                        imgSrc={downloadIcon}
-                        onClick={() => {
-                            console.log("callback function here");
-                        }}
-                    />
-                    <Item
-                        imgSrc={forwardIcon}
-                        onClick={() => {
-                            console.log("callback function here");
-                        }}
-                    />
-                </FloatingButton>; */}
-
-
 
 
             </>

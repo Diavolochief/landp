@@ -22,12 +22,7 @@ class CarouselPage1 extends Component {
                 description: '•Acceso a todos los servicios',
                 link: '#'
             },
-            {
-                image: `/assets/imagewebp/slider/slide-amenties3.webp`,
-                title: `VENTAJAS DE LA ZONA`,
-                description: '•Cercano a varios poblados para acceso a mano de obra.',
-                link: '#'
-            }
+            
         ]
 
         this.next = this.next.bind(this);

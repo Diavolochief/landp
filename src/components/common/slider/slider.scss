@@ -23,10 +23,12 @@
     }
 }
 .slider-wrap{
+    width: 100%;
     .slider-content{
         height: 100vh;
         text-transform: uppercase;
         font-size: 13px;
+        
         // font-family: $font-family-heading;
         display: flex;
         flex-wrap: wrap;
