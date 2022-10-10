@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,MAAM,EAAE,SAAS,EAAE,KAAK;EACpB,AAAA,iBAAiB,CAAC;IACd,aAAa,EAAE,KAAK;GACvB;EACD,AAAA,UAAU,CAAC;IACP,aAAa,EAAE,IAAI;GACtB",
+    "sources": [
+        "icon-box.scss",
+        "../../../../public/assets/scss/base/_variables.scss"
+    ],
+    "names": [],
+    "file": "icon-box.css"
+}

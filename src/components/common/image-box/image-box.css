@@ -1,0 +1,86 @@
+.image-box {
+  position: relative;
+  margin: 0 10px;
+}
+
+.image-box .image-box-wrap,
+.image-box .image-box-bg,
+.image-box .imgbox-bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.image-box .image-box-wrap {
+  overflow: hidden;
+}
+
+.image-box .image-box-wrap .image-box-bg {
+  will-change: transform;
+  background-size: cover;
+  background-position: center;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+}
+
+.image-box .image-box-wrap .imgbox-bg-overlay {
+  background-color: #000000;
+  opacity: 0.5;
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+}
+
+.image-box .image-box-content {
+  position: relative;
+  min-height: 550px;
+  padding: 150px 30px;
+}
+
+.image-box .image-box-content .subtitle {
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.image-box .image-box-content .title {
+  font-size: 36px;
+  line-height: 50px;
+}
+
+@media (max-width: 768px) {
+  .image-box .image-box-content .title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .image-box {
+    margin: 0 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .image-box {
+    margin: 0;
+  }
+}
+
+.image-box:hover .image-box-bg {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+}
+
+.image-box:hover .imgbox-bg-overlay {
+  opacity: 0.65;
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+}
+/*# sourceMappingURL=image-box.css.map */

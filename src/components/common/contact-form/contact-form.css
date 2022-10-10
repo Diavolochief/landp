@@ -1,0 +1,53 @@
+.form-group-v1 .form-control {
+  background-color: transparent;
+  border: 2px solid #cabe9f;
+  padding: 0.57rem 1.4rem;
+  margin-top: 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.form-group-v1 .form-control::-webkit-input-placeholder {
+  color: #9ea0a6;
+}
+
+.form-group-v1 .form-control:-ms-input-placeholder {
+  color: #9ea0a6;
+}
+
+.form-group-v1 .form-control::-ms-input-placeholder {
+  color: #9ea0a6;
+}
+
+.form-group-v1 .form-control::placeholder {
+  color: #9ea0a6;
+}
+
+.form-group-v1 .form-control:focus {
+  border-color: #cabe9f;
+}
+
+.form-group-v1 button[type="submit"] {
+  font-size: 12px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.site-footer .form-group-v1 .form-control {
+  color: #fff;
+}
+
+.site-footer .form-group-v1 button[type="submit"] {
+  background-color: white;
+  border: 2px solid #fff;
+  color: #cabe9f;
+}
+
+.site-footer .form-group-v1 button[type="submit"]:hover {
+  color: #cabe9f;
+  border-color: #cabe9f;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+/*# sourceMappingURL=contact-form.css.map */

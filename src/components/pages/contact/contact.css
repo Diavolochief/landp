@@ -1,0 +1,93 @@
+.contact-page-wrap .box-content {
+  margin-bottom: 30px;
+}
+
+.contact-page-wrap .box-content .box-title {
+  font-size: 18px;
+}
+
+.contact-page-wrap .box-content a {
+  color: #555;
+}
+
+.contact-page-wrap .box-content a:hover {
+  color: #cabe9f;
+}
+
+.contact-page-wrap p {
+  margin-bottom: 0;
+}
+
+.contact-page-wrap .form-contact {
+  max-width: 770px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.contact-page-wrap .form-contact p {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Marcellus SC", serif;
+}
+
+.contact-page-wrap .form-contact h3 {
+  margin-bottom: 70px;
+  color: #cabe9f;
+  font-size: 30px;
+}
+
+.contact-page-wrap .box-contact {
+  margin-top: 50px;
+}
+
+.box-icon {
+  text-align: center;
+  border-right: 1px solid #ebebeb;
+}
+
+@media (max-width: 992px) {
+  .box-icon {
+    border-right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .box-icon {
+    margin-bottom: 30px;
+  }
+}
+
+.box-icon.no-border {
+  border-right: 0;
+}
+
+.box-icon .icon {
+  font-size: 65px;
+  color: #cabe9f;
+  margin-bottom: 25px;
+  line-height: 65px;
+}
+
+@media (max-width: 992px) {
+  .box-icon .icon {
+    margin-bottom: 0px;
+  }
+}
+
+.box-icon .icon .opal-icon-phone {
+  -webkit-transform: rotate(265deg);
+  transform: rotate(265deg);
+}
+
+.box-icon .title {
+  font-size: 13px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.box-icon .description {
+  color: #000;
+  font-size: 14px;
+}
+/*# sourceMappingURL=contact.css.map */

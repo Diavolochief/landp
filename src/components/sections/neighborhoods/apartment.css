@@ -1,0 +1,119 @@
+.apartments {
+  padding: 120px 30px 150px 30px;
+  background: #3f4448 url(/assets/imagewebp/theme/bg-apartment.webp);
+  position: relative;
+}
+
+@media (max-width: 992px) {
+  .apartments {
+    padding: 60px 0 !important;
+  }
+}
+
+.apartments .image-hotspots-accordion {
+  padding: 50px;
+  background: #fff;
+  overflow: hidden;
+}
+
+@media (max-width: 992px) {
+  .apartments .image-hotspots-accordion {
+    padding: 15px !important;
+  }
+}
+
+.apartments .image-hotspots-accordion .accordion {
+  border: none;
+}
+
+.apartments .image-hotspots-accordion .accordion__button {
+  padding: 20px 0;
+  position: relative;
+}
+
+.apartments .image-hotspots-accordion .accordion__button:before {
+  float: right;
+}
+
+.apartments .image-hotspots-accordion .accordion__panel {
+  padding: 20px 0;
+}
+
+.apartments .image-hotspots img {
+  width: 100%;
+}
+
+.apartments .image-hotspots .tooltip-wrapper {
+  cursor: pointer;
+  display: block;
+  position: absolute;
+}
+
+.apartments .image-hotspots .tooltip-wrapper i {
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  border-radius: 50%;
+  height: 18px;
+  width: 18px;
+  line-height: 18px;
+  -webkit-box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
+  background-color: #cabe9f;
+}
+
+.apartments .image-hotspots .tooltip-wrapper i::before {
+  content: "";
+  position: absolute;
+  top: calc(50% - 3px);
+  left: calc(50% - 3px);
+  width: 6px;
+  height: 6px;
+  display: block;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.apartments .image-hotspots .tooltip-wrapper i::after {
+  -webkit-box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
+  border-radius: 200%;
+  content: "";
+  position: absolute;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  pointer-events: none;
+  -webkit-animation: hotspot-animation 2s infinite;
+          animation: hotspot-animation 2s infinite;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+@-webkit-keyframes hotspot-animation {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+@keyframes hotspot-animation {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+    opacity: 0;
+  }
+}
+/*# sourceMappingURL=apartment.css.map */

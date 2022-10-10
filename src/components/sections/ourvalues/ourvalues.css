@@ -1,0 +1,135 @@
+ul.apartment-items {
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+ul.apartment-items li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  padding: 10px 0;
+  border-bottom: 1px solid #ebebeb;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+ul.apartment-items li .value-list {
+  font-weight: 500;
+  color: #3f4448;
+}
+
+.react-tabs p {
+  color: #3f4448;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.4px;
+}
+
+.react-tabs .react-tabs__tab-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.react-tabs .react-tabs__tab-list li {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 18px;
+  letter-spacing: 2.4px;
+  color: #3f4448;
+  background-color: #f8f8f8;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin: 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  padding: 20px 25px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -ms-flex: 1 !important;
+  -webkit-box-flex: 1 !important;
+          flex: 1 !important;
+}
+
+.react-tabs .react-tabs__tab-list li:hover, .react-tabs .react-tabs__tab-list li.react-tabs__tab--selected {
+  background-color: #cabe9f;
+  color: #fff;
+  position: relative;
+}
+
+.react-tabs .react-tabs__tab-list li:hover:after, .react-tabs .react-tabs__tab-list li.react-tabs__tab--selected:after {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  bottom: -6px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  border-top: 6px solid;
+  border-left: 8px solid transparent !important;
+  border-right: 8px solid transparent !important;
+  border-bottom: 0;
+  border-top-color: #cabe9f;
+}
+
+@media (max-width: 767px) {
+  .react-tabs .react-tabs__tab-list li:hover:after, .react-tabs .react-tabs__tab-list li.react-tabs__tab--selected:after {
+    content: none;
+  }
+}
+
+.react-tabs .react-tabs__tab-list li:after {
+  background-color: transparent;
+  content: none;
+}
+
+.react-tabs .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+.react-tabs .apartment-img {
+  padding-left: 80px;
+}
+
+@media (max-width: 992px) {
+  .react-tabs .apartment-img {
+    padding-left: 0 !important;
+    padding-top: 30px;
+  }
+}
+
+.react-tabs .flex-row-reverse .apartment-img {
+  padding-right: 80px;
+  padding-left: 0;
+}
+
+@media (max-width: 992px) {
+  .react-tabs .flex-row-reverse .apartment-img {
+    padding-right: 0px !important;
+  }
+}
+/*# sourceMappingURL=ourvalues.css.map */

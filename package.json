@@ -6,6 +6,8 @@
   "dependencies": {
     "@babel/core": "7.1.0",
     "@svgr/webpack": "2.4.1",
+    "@syncfusion/ej2-react-buttons": "^20.3.48",
+    "@syncfusion/ej2-react-navigations": "^20.3.48",
     "@woocommerce/woocommerce-rest-api": "^1.0.1",
     "animate.css": "^3.7.2",
     "aos": "^3.0.0-beta.6",

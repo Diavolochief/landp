@@ -1,0 +1,10 @@
+.btn {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}
+
+.btn span,
+.btn i {
+  margin-left: 13px;
+}
+/*# sourceMappingURL=typography.css.map */

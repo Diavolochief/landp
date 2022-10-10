@@ -10,7 +10,6 @@ class SliderHome extends Component {
             slidesToShow: 1,
             slidesToScroll: 1,
         };
-
         return (
             <div className={'slider-wrap position-relative'}   data-aos="zoom-out" data-aos-delay="100">
                 <Slider {...settings}>

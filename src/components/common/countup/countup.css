@@ -1,0 +1,115 @@
+@media (max-width: 992px) {
+  .countup-wrap {
+    text-align: center;
+  }
+}
+
+.countup-wrap .counter-number {
+  font-size: 36px;
+  font-family: "Marcellus SC", serif;
+  text-transform: uppercase;
+  color: #3f4448;
+  line-height: 36px;
+}
+
+.countup-wrap .counter-title {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.33px;
+}
+
+.countup-wrap .countup-box {
+  position: relative;
+  padding-bottom: 30px;
+  margin-right: 50px;
+}
+
+@media (max-width: 992px) {
+  .countup-wrap .countup-box {
+    margin-right: 0px;
+  }
+}
+
+.countup-wrap .countup-box:after {
+  content: "";
+  height: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #f8f8f8;
+  z-index: -2;
+}
+
+@media (max-width: 992px) {
+  .countup-wrap .countup-box:after {
+    content: none;
+  }
+}
+
+.countup-wrap .countup-box:before {
+  content: "";
+  left: 0;
+  background-color: #cabe9f;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 10px;
+  z-index: -1;
+  -webkit-transition: width 0.7s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
+  transition: width 0.7s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
+}
+
+@media (max-width: 992px) {
+  .countup-wrap .countup-box:before {
+    content: none;
+  }
+}
+
+.countup-wrap .countup-box:hover:before {
+  width: 100%;
+}
+
+.countup-wrap.style .countup-box {
+  padding-bottom: 0;
+  margin-right: 0;
+}
+
+.countup-wrap.style .countup-box:before {
+  height: 3px;
+  width: 100px;
+  top: 50%;
+  right: -20%;
+  left: auto;
+  z-index: 1;
+}
+
+@media (max-width: 992px) {
+  .countup-wrap.style .countup-box:before {
+    content: none;
+  }
+}
+
+.countup-wrap.style .countup-box:after {
+  content: none;
+}
+
+.countup-wrap.style [class*="col-"]:last-child .countup-box:before {
+  content: none;
+}
+
+.building-counter {
+  padding: 160px 0;
+  background-color: #f8f8f8;
+  background-image: url(/assets/imagewebp/ourservices/img_bg.webp);
+  position: relative;
+  background-position: center;
+}
+
+@media (max-width: 992px) {
+  .building-counter {
+    padding: 40px 15px !important;
+  }
+}
+/*# sourceMappingURL=countup.css.map */

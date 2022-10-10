@@ -1,10 +1,10 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 
 // Import custom components
 import MainMenu from "./common/navbar";
 import LogoImage from "./common/logo";
-import {connect} from "react-redux";
+import { connect } from "react-redux";
 
 import LanguageSwitchBlock from "./common/language-switch";
 import Modal from 'react-responsive-modal';
@@ -28,11 +28,11 @@ class HeaderOne extends Component {
 
     onOpenModal = (e) => {
         e.preventDefault();
-        this.setState({open: true});
+        this.setState({ open: true });
     };
 
     onCloseModal = () => {
-        this.setState({open: false});
+        this.setState({ open: false });
     };
 
 
@@ -43,16 +43,19 @@ class HeaderOne extends Component {
                     <div className="row">
                         <div className="d-flex align-items-center w-100 site-header-wrap justify-content-between">
                             <div className="site-branding">
-                                <LogoImage logo={this.props.logoName}/>
+                                <LogoImage logo={this.props.logoName} />
                             </div>
-
-                            <MainMenu menu={this.props.menu}/>
-
+                            <MainMenu menu={this.props.menu} />
                             <div className="header-group d-flex">
+
                                 <button type="button" className="btn btn-outline-primary" onClick={this.onOpenModal} >Agenda una Visita</button>
                                 <div className="rpm-trigger header-button" id="rpm-trigger">
                                     <i className={`opal-icon opal-icon-toggle`}></i></div>
                             </div>
+                            <button type="button" className="btn whabtn" >
+                                <a href='https://api.whatsapp.com/send?phone=3313524827&text=contactanos' >
+                                    <i class='fa fa-whatsapp whas' /> </a></button>
+
                         </div>
                     </div>
                 </div>
@@ -61,7 +64,7 @@ class HeaderOne extends Component {
                         <div className="modal-content quick-view-modal">
                             <div className="modal-body">
                                 <h6 className="heading-title">Agenda una Visita</h6>
-                                <ContactForm/>
+                                <ContactForm />
                             </div>
                         </div>
                     </div>

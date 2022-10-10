@@ -1,0 +1,44 @@
+.breadcrumb-section {
+  text-align: center;
+  padding: 60px 0 30px;
+  background: #292929 url("/assets/imagewebp/theme/pattern_dark.webp");
+  position: relative;
+}
+
+.breadcrumb-section .page-title h2 {
+  color: #fff;
+  font-family: "Marcellus SC", serif;
+  font-size: 24px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  font-weight: 700;
+  margin: 1.5em 0 0;
+}
+
+.breadcrumb {
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.breadcrumb * {
+  font-size: 14px;
+  line-height: 30px;
+  color: #cabe9f;
+}
+
+.breadcrumb *:hover {
+  color: #fff;
+}
+
+.breadcrumb .active {
+  color: #cabe9f;
+}
+
+.breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  font-size: 14px;
+  color: #cabe9f;
+  content: ".";
+}
+/*# sourceMappingURL=breadcrumb.css.map */

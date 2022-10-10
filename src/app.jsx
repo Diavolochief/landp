@@ -17,7 +17,18 @@ import pho from './iconos/phone.svg'
 
 import './lib/menuPush/component.scss';
 
+function openNav() {
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+}
+
 class App extends Component {
+
     constructor(props) {
         super(props);
         this.state = {
@@ -36,6 +47,8 @@ class App extends Component {
                 document.querySelector(".loader-wrapper").style = "display: none";
             })
     };
+
+
 
     render() {
         return !this.state.isLoading && (
@@ -89,6 +102,8 @@ class App extends Component {
 
                     
                 </Container> */}
+              
+
                 <Container>
                     <FloatingButton
                         right={true}
@@ -97,20 +112,20 @@ class App extends Component {
                         color={'black'}
                         imgSrc={contacto}
                     >
-                        
+
                         <Item
                             imgSrc={others}
                             backgroundColor={'#cabe9f'}
-                            onClick={()=>window.location='https://www.facebook.com/LandParkTlajomulco'}
+                            onClick={() => window.location = 'https://www.facebook.com/LandParkTlajomulco'}
                         />
                         <Item
                             imgSrc={what}
                             backgroundColor={'#cabe9f'}
-                            
+
                             onClick={() => {
                                 console.log("callback function here");
                             }}
-                            />
+                        />
                         <Item
                             imgSrc={pho}
                             backgroundColor={'#cabe9f'}
@@ -118,6 +133,7 @@ class App extends Component {
                                 console.log("callback function here");
                             }}
                         />
+
                     </FloatingButton>;
 
 

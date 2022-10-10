@@ -35,6 +35,12 @@ class Home1 extends Component {
                 <div className="section-wrapper separador" data-aos="zoom-in" data-aos-delay="100">
                     <CounterBlock />
                 </div>
+                <div className="section-wrapper pb-0 ">
+                    <CallToActionSection />
+                </div>
+                <div className="section-wrapper" id='contactos'>
+                    <ContactPage />
+                </div>
 
                 <hr class="hr" />
                 <div id='ubicacion' className="section-wrapper pl-6 pr-6 ">
@@ -43,18 +49,11 @@ class Home1 extends Component {
                 <div className="section-wrapper pl-6 pr-6" id='galeria' >
                     <GallerrySection />
                 </div>
-                <div className="section-wrapper pb-0 ">
-                    <CallToActionSection />
-                </div>
-                <div className="section-wrapper" id='contactos'>
-                    <ContactPage />
-                </div>
-
 
             </div>
         )
 
     }
 }
-
+    
 export default Home1;

@@ -65,7 +65,8 @@ class ContactPage extends Component {
                                 <input type="phone" className="form-control" id="exampleInputPhone1" placeholder="Tu Numero " />
                             </div>
                             <div className="col-12">
-                                <button type="submit" className="btn btn-primary w-100">Dejanos Un Mensaje <i className="opal-icon-arrow"></i></button>
+                                <button type="submit" onClick={() => window.location = '/thankuPage'}
+                                  className="btn btn-primary w-100">Dejanos Un Mensaje <i className="opal-icon-arrow"></i></button>
                             </div>
                         </div>
                     </div>

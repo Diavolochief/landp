@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,IAAI,CAAC;EACD,cAAc,EAAE,SAAS;EACzB,cAAc,ECoHS,MAAM;CD/GhC;;AAPD,AAGI,IAHA,CAGA,IAAI;AAHR,IAAI,CAIA,CAAC,CAAA;EACG,WAAW,EAAE,IAAI;CACpB",
+    "sources": [
+        "typography.scss",
+        "../../../../public/assets/scss/base/_variables.scss"
+    ],
+    "names": [],
+    "file": "typography.css"
+}

@@ -3,6 +3,108 @@
 html{
     scroll-behavior: smooth;
 }
+.whabtn{
+    
+        display: inline-block;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        color: #9ea0a6;
+        text-align: center;
+        vertical-align: middle;
+        -webkit-user-select: none;
+        user-select: none;
+        background-color: transparent;
+        border: 2px solid transparent;
+          border-top-color: transparent;
+          border-right-color: transparent;
+          border-bottom-color: transparent;
+          border-left-color: transparent;
+        padding: 10px 30px;
+        font-size: 0.75rem;
+        line-height: 1.875;
+        border-radius: 0;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      }
+
+
+// section 
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.uwus{
+    height: 100%;
+    padding-top: 150px; 
+    padding-bottom: 150px; 
+
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+// 
+
+      
+.whas{
+    color: #fff;
+    background-color: green;
+    margin: auto;
+    justify-content: center;
+    border-radius:100% ;
+    width: 70px;
+    padding-top: 7px;
+    padding-left: 3.5px;
+    height: 70px;
+    font-size: 55px;
+}
+.whas:hover{
+    background-color: rgb(18, 204, 18);
+transition: 1s;
+}
 
 .celio{
  width: 100%;
@@ -50,6 +152,9 @@ html{
         height: 60px !important;
         font-size: 20px!important;
         
+    }
+    .whabtn{
+        display: none;
     }
     .opal-wrapper{
         position: sticky;

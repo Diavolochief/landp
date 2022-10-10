@@ -1,0 +1,115 @@
+.ourservices {
+  padding: 90px 0 60px;
+  background-color: #f8f8f8;
+  background-image: url(/assets/imagewebp/ourservices/img_bg.webp);
+  position: relative;
+  background-position: center;
+}
+
+@media (max-width: 992px) {
+  .ourservices {
+    padding: 40px 0 20px 0;
+  }
+}
+
+.featured-box.style-2 {
+  background-color: #fff;
+  padding: 40px;
+  margin-bottom: 30px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+
+@media (max-width: 992px) {
+  .featured-box.style-2 {
+    padding: 30px;
+  }
+}
+
+.featured-box.style-2 .featured-box-title {
+  color: #3f4448;
+}
+
+.featured-box.style-2 .featured-box-description {
+  color: #9ea0a6;
+}
+
+.featured-box.style-2:hover {
+  background-color: #3f4448;
+  transform: translateY(-5px);
+  -webkit-transform: translateY(-5px);
+}
+
+.featured-box.style-2:hover .featured-box-title {
+  color: #fff;
+}
+
+.icon-box {
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #9ea0a6;
+}
+
+.icon-box .icon-box-icon {
+  margin-bottom: 15px;
+}
+
+.icon-box .icon-box-icon i {
+  color: #cabe9f;
+  font-size: 40px;
+  line-height: 1;
+}
+
+.icon-box .icon-box-content .icon-box-title {
+  color: #3f4448;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  height: 35px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.icon-list ul {
+  padding: 0;
+}
+
+.icon-list .icon-list-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+.icon-list .icon-list-items .icon-list-icon {
+  display: inline-block;
+  margin-right: 15px;
+  border: 2px solid #f8f8f8;
+  border-radius: 100%;
+  min-width: 25px;
+  height: 25px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.icon-list .icon-list-items .icon-list-icon i {
+  color: #cabe9f;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.icon-list .icon-list-items .icon-list-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #3f4448;
+}
+
+.icon-list li:hover .icon-list-icon {
+  border-color: #cabe9f;
+}
+
+.icon-list li:hover .icon-list-text {
+  color: #cabe9f;
+}
+/*# sourceMappingURL=our-services.css.map */

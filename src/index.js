@@ -12,6 +12,7 @@ import store from './store';
 import translations from './constants/translations'
 
 // Layouts
+// import thankuPage from './thankuPage';
 import Home1 from './components/home-1';
 
 import PageNotFound from './components/404';
@@ -25,6 +26,7 @@ import SingBlogPage from "./components/pages/blog/single-blog";
 import FAQPage from "./components/pages/faq/faq";
 import TypographyPage from "./components/pages/typography/typography";
 import OurTeamPage from "./components/pages/our-team/our-team";
+import thankuPage from './thankuPage';
 import {getAllData} from "./actions";
 import OurServicesPage from "./components/pages/our-services/our-services";
 import TheBuildingPage from "./components/pages/the-building/the-building";
@@ -44,6 +46,7 @@ class Root extends React.Component {
                             <Switch>
                                 <Layout>
                                     <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home1}/>
+                                    <Route exact path={`${process.env.PUBLIC_URL}/thankuPage`} component={thankuPage}/>
                                 </Layout>
                             </Switch>
                         </ScrollContext>

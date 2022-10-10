@@ -69,7 +69,9 @@ class ContactForm extends Component {
                 <div className="form-group">
                     <Textarea onChange={(e) => {this.setState({content: e.target.value})}}  value={this.state.content} className="form-control" placeholder="Como Podemos Apoyarte?" rows="3" validations={[this.required]}/>
                 </div>
-                <button type="submit" className="btn btn-primary mt-4 btn-block">Enviar</button>
+                <button type="submit" 
+                onClick={() => window.location = '/thankuPage'}
+                className="btn btn-primary mt-4 btn-block">Enviar</button>
                 <CheckButton style={{display: 'none'}} ref={c => {
                     this.checkBtn = c
                 }}/>

@@ -1,0 +1,105 @@
+.apartments-page-wrap .entry-image {
+  margin-bottom: 2rem;
+}
+
+.apartments-page-wrap .entry-image .slick-list .slick-active {
+  text-align: -webkit-center;
+  margin-bottom: 1.5rem;
+  opacity: 1 !important;
+}
+
+.apartments-page-wrap .entry-image .slick-list .slider-item {
+  opacity: 0;
+}
+
+.apartments-page-wrap .entry-image .slick-dots {
+  position: initial;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.apartments-page-wrap .entry-image .slick-dots li {
+  margin: 0 5px;
+}
+
+.apartments-page-wrap .entry-image .slick-dots li button::before {
+  color: #cabe9f;
+}
+
+.apartments-page-wrap .entry-image .slick-dots li.slick-active button::before {
+  color: #cabe9f;
+  opacity: 1;
+}
+
+.apartments-page-wrap .entry-image .slick-arrow::before {
+  display: block;
+  font-size: 35px;
+  color: #3f4448;
+  border: 1px solid #3f4448;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  -webkit-box-sizing: initial;
+          box-sizing: initial;
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+}
+
+.apartments-page-wrap .entry-image .slick-arrow.slick-prev:hover::before, .apartments-page-wrap .entry-image .slick-arrow.slick-next:hover::before {
+  color: #cabe9f;
+  border-color: #cabe9f;
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+}
+
+.apartments-page-wrap .entry-meta {
+  margin: 0 0 1.5rem;
+  padding: 0 0 1.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.apartments-page-wrap .entry-content {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1440px) {
+  .apartments-page-wrap .entry-content {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 66.66667%;
+            flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+  }
+}
+
+.apartments-page-wrap h3 {
+  padding: 1.5em 0 0;
+  text-transform: uppercase;
+}
+
+.apartments-page-wrap p {
+  margin-bottom: 1.5rem;
+}
+
+.apartments-page-wrap img.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.5em;
+}
+
+.apartments-page-wrap img.alignleft {
+  display: inline;
+  float: left;
+  margin-left: 1.5em;
+}
+
+@media (max-width: 992px) {
+  .apartments-page-wrap .site-content {
+    padding: 50px 0;
+  }
+}
+/*# sourceMappingURL=apartment-single.css.map */

@@ -1,0 +1,143 @@
+.block-table {
+  max-width: 980px;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.block-table .table th {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  padding: 2em 1em;
+  border-bottom: 1px solid #959595;
+  white-space: nowrap;
+  border-top: 0;
+  color: #3f4448;
+}
+
+.block-table .table td {
+  padding: 1em 1em;
+  border-bottom: 1px solid #ebebeb;
+  color: #3f4448;
+}
+
+.block-table .table td span {
+  font-size: 13px;
+  font-weight: 400;
+  color: #9ea0a6;
+}
+
+.block-table .table td a {
+  background-color: #f8f8f8;
+  border: 0;
+  white-space: nowrap;
+  font-size: 12px;
+  color: #3f4448;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  padding: 0.75rem 2rem;
+}
+
+.block-table .table td a:hover {
+  -webkit-transition: all 0.3ms ease-in-out;
+  transition: all 0.3ms ease-in-out;
+  background-color: #cabe9f;
+  color: #fff;
+}
+
+.block-table .table tr:first-child td {
+  padding-top: 2rem;
+}
+
+@media (max-width: 767px) {
+  .apartment-block-wrap {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+.apartment-block-wrap .row .property {
+  margin-bottom: 30px;
+}
+
+.apartment-block-wrap .row.no-gutters .property {
+  margin-bottom: 0;
+}
+
+.apartment-block-wrap .pagination {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.property .property-wrap {
+  position: relative;
+}
+
+@media (max-width: 576px) {
+  .property .property-wrap {
+    margin-bottom: 15px;
+  }
+}
+
+.property .property-wrap .post-thumbnail {
+  overflow: hidden;
+}
+
+.property .property-wrap .post-thumbnail::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.65) 100%);
+}
+
+.property .property-wrap .post-thumbnail .img-apartment {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+}
+
+.property .property-wrap .entry-content {
+  position: absolute;
+  left: -1px;
+  right: -1px;
+  bottom: 0;
+  margin-bottom: 0;
+  padding-top: 85px;
+  padding-bottom: 55px;
+  max-height: 100%;
+  z-index: 99;
+  background-image: -webkit-linear-gradient(90deg, #3f4448 0%, rgba(37, 39, 40, 0) 100%);
+  max-width: 100%;
+}
+
+.property .property-wrap .entry-content .property-title a {
+  font-family: "Marcellus SC", serif;
+  font-size: 20px;
+  color: #fff;
+}
+
+.property .property-wrap .entry-content .link-more {
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.property .property-wrap:hover .post-thumbnail .img-apartment {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+}
+/*# sourceMappingURL=apartment.css.map */

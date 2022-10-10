@@ -1,0 +1,38 @@
+.amenities-general {
+  padding: 130px 60px;
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .amenities-general {
+    padding: 90px 30px;
+  }
+  .amenities-general h2 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .amenities-general {
+    padding: 60px 15px;
+  }
+  .amenities-general h2 {
+    font-size: 35px;
+  }
+  .amenities-general h3 {
+    font-size: 25px;
+  }
+}
+
+.amenities-general.amenities-bg {
+  background-color: #f8f8f8;
+}
+
+@media (max-width: 991px) {
+  .amenities-general .amenities {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+/*# sourceMappingURL=explore-amenities.css.map */

@@ -1,0 +1,90 @@
+/**
+* ----------------------------------------------
+* Demo styles
+* ----------------------------------------------
+**/
+.faq-wrap .section-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.faq-wrap .accordion__button:before {
+  margin-right: 25px;
+}
+
+.accordion {
+  border-bottom: 1px solid #ebebeb;
+  border-top: 1px solid #ebebeb;
+}
+
+.accordion .accordion__item:last-child .accordion__button {
+  border-bottom: 0;
+}
+
+.accordion .accordion__item:last-child .accordion__panel {
+  border-bottom: 0;
+  border-top: 1px solid #ebebeb;
+}
+
+.accordion__button {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 30px;
+  letter-spacing: 3px;
+  color: #3f4448;
+  padding: 15px 25px 15px 25px;
+  font-family: "Marcellus SC", serif;
+  border-bottom: 1px solid #ebebeb;
+  cursor: pointer;
+  outline: none;
+}
+
+.accordion__button:hover {
+  color: #cabe9f;
+}
+
+.accordion__button:before {
+  display: inline-block;
+  content: '+';
+  font-size: 20px;
+  color: #cabe9f;
+}
+
+.accordion__button[aria-expanded='true']::before,
+.accordion__button[aria-selected='true']::before {
+  content: '-';
+}
+
+.accordion__panel {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  border-bottom: 1px solid #ebebeb;
+  padding: 40px 40px 40px 62px;
+  -webkit-animation: fadein 0.35s ease-in;
+          animation: fadein 0.35s ease-in;
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+/* -------------------------------------------------- */
+/* ---------------- Animation part ------------------ */
+/* -------------------------------------------------- */
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=faq.css.map */
