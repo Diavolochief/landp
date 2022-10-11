@@ -3,7 +3,9 @@ import { Helmet } from 'react-helmet'
 // Import custom components
 import { Container, Button, Link } from 'react-floating-action-button'
 
+
 import SliderHome from "./common/slider/slider";
+import modalForm from '../modalForm';
 import OverviewSection from "./sections/overview/overview";
 import CounterBlock from "./common/countup/countup";
 import ContactPage from './pages/contact/contact';
@@ -23,6 +25,9 @@ class Home1 extends Component {
                 </Helmet>
                 <div className="section-wrapper pt-0 pb-0 separador">
                     <SliderHome />
+                </div>
+                <div className="section-wrapper pt-0 pb-0 separador">
+                    <modalForm/>
                 </div>
                 <div id='terrenos' className="section-wrapper separador">
                     <OverviewSection />

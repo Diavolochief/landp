@@ -5,10 +5,7 @@ import FooterOne from "./components/common/footers/footer-one";
 import PushMenu from 'react-push-menu';
 import LinkComponent from "./lib/menuPush/LinkComponent";
 import { Container, } from 'react-floating-action-button'
-
-
-
-
+import ModalForm from './modalForm'
 import { FloatingButton, Item } from "react-floating-button";
 import others from './iconos/facebook2.svg'
 import contacto from './iconos/contacts.svg'
@@ -76,33 +73,9 @@ class App extends Component {
 
                     </PushMenu>
                 </div>
-                {/* <Container >
-                    <Link href="https://www.instagram.com/landparktlajomulco/?igshid=YzA2ZDJiZGQ%3D"
-                        tooltip="Telefono"
-                        styles={{ backgroundColor: 'blue ', color: 'white',  }}
-                        icon="fa fa-phone icons"  />
-                    <Link href="#"
-                        tooltip="Whatsapp"
-                        styles={{ backgroundColor: '#25D366', color: 'white',  }}
-                        icon="fa fa-whatsapp icons" />
-                    <Link href="https://www.facebook.com/LandParkTlajomulco"
-                        tooltip="Facebook"
-                        styles={{ backgroundColor: '#3b5998', color: 'white', }}
-                        icon="fa fa-facebook icons1" />
-
-                    <Button
-                        className="fab-item"
-                        styles={{ backgroundColor: '#cabe9f', color: 'black',  }}
-                        tooltip="Contacto"
-                        icon="fa fa-arrow-up "
-                        rotate={true}
-                        
-                        />
-
-
-                    
-                </Container> */}
-              
+                    <Container>
+                      <ModalForm/>
+                    </Container>
 
                 <Container>
                     <FloatingButton
@@ -111,30 +84,30 @@ class App extends Component {
                         backgroundColor={'#cabe9f'}
                         color={'black'}
                         imgSrc={contacto}
-                    >
+                        >
 
                         <Item
                             imgSrc={others}
                             backgroundColor={'#cabe9f'}
                             onClick={() => window.location = 'https://www.facebook.com/LandParkTlajomulco'}
-                        />
+                            />
                         <Item
                             imgSrc={what}
                             backgroundColor={'#cabe9f'}
-
+                            
                             onClick={() => {
                                 console.log("callback function here");
                             }}
-                        />
+                            />
                         <Item
                             imgSrc={pho}
                             backgroundColor={'#cabe9f'}
                             onClick={() => {
                                 console.log("callback function here");
                             }}
-                        />
+                            />
 
-                    </FloatingButton>;
+                    </FloatingButton>
 
 
                 </Container>

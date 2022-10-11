@@ -12,7 +12,7 @@ import store from './store';
 import translations from './constants/translations'
 
 // Layouts
-// import thankuPage from './thankuPage';
+
 import Home1 from './components/home-1';
 
 import PageNotFound from './components/404';
@@ -28,17 +28,14 @@ import TypographyPage from "./components/pages/typography/typography";
 import OurTeamPage from "./components/pages/our-team/our-team";
 import thankuPage from './thankuPage';
 import {getAllData} from "./actions";
-import OurServicesPage from "./components/pages/our-services/our-services";
-import TheBuildingPage from "./components/pages/the-building/the-building";
-import ApartmentsPage from "./components/pages/apartments/apartments";
-import ApartmentSinglePage from "./components/pages/apartment-single/apartment-single";
-
+import MenuProvider from 'react-flexible-sliding-menu';
 
 class Root extends React.Component {
 
     render() {
         store.dispatch(getAllData());
         return (
+            <MenuProvider MenuComponent={ContactPage}>
             <Provider store={store}>
                 <IntlProvider translations={translations} locale='en'>
                     <BrowserRouter basename={'/'}>
@@ -53,6 +50,7 @@ class Root extends React.Component {
                     </BrowserRouter>
                 </IntlProvider>
             </Provider>
+</MenuProvider>
         );
     }
 }
